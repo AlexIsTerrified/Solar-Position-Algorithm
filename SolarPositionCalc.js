@@ -575,7 +575,7 @@ function calculate_eot_and_sun_rise_transit_set(spa){
 export function result(lat,lon,year,month,day,hour,minute,sec){
 	var results = calc(lat,lon,year,month,day,hour,minute,sec)
 	var daylight = calculate_eot_and_sun_rise_transit_set(calc(lat,lon,year,month,day,0,0,0))
-	return {lat:results.latitude,lon:results.longitude,el: results.el,az:results.az,dec:results.delta,eot:results.eqtime,...daylight}
+	return {el: results.el,az:results.az,dec:results.delta,eot:results.eqtime,...daylight}
 }
 
 
