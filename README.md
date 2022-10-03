@@ -8,21 +8,21 @@ Solar Radiation Applications](https://www.nrel.gov/docs/fy08osti/34302.pdf)
 ### result(latitude,longitude,year.month,date,hour,minute,second): javascript Object
 
 ## Parameters
-latitude:Number | The geographical latitude of a position on earth in degrees | values:-90.0 - 90.0
+latitude | The geographical latitude of a position on earth in degrees | values:-90.0 - 90.0
 
-longitude:Number | The geographical longitude of a position on earth in degrees | values:-180.0 - 180.0
+longitude | The geographical longitude of a position on earth in degrees | values:-180.0 - 180.0
 
-year:Number | The given year eg. 2022
+year | The given year eg. 2022
 
-month:Number | The number of the given month where January = 1 and December = 12
+month | The number of the given month where January = 1 and December = 12
 
-date:Number | The date of the given month eg. 1, 28, 30,31
+date | The date of the given month eg. 1, 28, 30,31
 
-hour:Number | The hour of the given day in a 24 hour format eg. 5pm = 17
+hour | The hour of the given day in a 24 hour format eg. 5pm = 17
 
-minute:Number | The minute of the given hour | values: 0 - 60
+minute | The minute of the given hour | values: 0 - 60
 
-second:Number | The second of the given minute | values: 0 - 60
+second | The second of the given minute | values: 0 - 60
 
 ## Return Value
 the result() function returns a javascript object with the following attributes
