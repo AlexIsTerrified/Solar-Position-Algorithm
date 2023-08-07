@@ -1,7 +1,7 @@
 # Solar-Position-Algorithm
 Algorithm used to determine the solar azimuth and elevation angles of a given date-time and geo location
 
-This algorithm is based on the equations form Astronomical Algorithms by Jean Meanus and is adapted from the summary provided by the U.S. Department of Energy Laboratory. [Solar Position Algorithm for
+This algorithm is based on the equations of Astronomical Algorithms by Jean Meanus and is adapted from the summary provided by the U.S. Department of Energy Laboratory. [Solar Position Algorithm for
 Solar Radiation Applications](https://www.nrel.gov/docs/fy08osti/34302.pdf)
 
 ## Exported Function
